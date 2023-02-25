@@ -13,5 +13,7 @@ function solution(str, ending){
    return false;
 }
 
+const solution = (str, ending) => str.endsWith(ending); // best soluction
+
 console.log(solution('abcde', 'cde'))
 console.log(solution('fghi', 'hii'))
