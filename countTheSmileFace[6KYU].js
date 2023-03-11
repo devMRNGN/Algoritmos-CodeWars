@@ -8,4 +8,10 @@ const countSmileys = arr => {
    return count;
 }
 
+/* 
+function countSmileys(arr) {
+  return arr.filter(x => /^[:;][-~]?[)D]$/.test(x)).length;
+}
+*/
+
 console.log(countSmileys([';]', ':[', ';*', ':$', ';-D']))
